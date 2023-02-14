@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir tail -1 PATH/action
+PATH=$PATH/action
