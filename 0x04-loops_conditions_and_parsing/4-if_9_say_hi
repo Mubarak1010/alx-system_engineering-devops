@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script that uses while loop to display 10 times with exception of the 9th
+
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 8 ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	(( i++ ))
+done
