@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unitsd.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -44,5 +44,5 @@ int main (void)
 	}
 
 	infinite_while();
-	return ()EXIT_SUCCESS;
+	return (EXIT_SUCCESS);
 }
